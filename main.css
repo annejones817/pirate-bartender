@@ -1,0 +1,21 @@
+.hidden {
+	display:none;
+}
+
+body {
+	padding:20px;
+}
+
+button {
+	display:block;
+	margin-top:10px;
+}
+
+.input-label {
+	display:block;
+	margin-top:10px;
+}
+
+.require-answer {
+	color:red;
+}
