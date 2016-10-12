@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pirate Bartender App</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="An app for pirate cocktails">
+	  <!-- Normalize.css, a cross-browser reset file -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header>
+		<h1>Pirate Bartender</h1>
+		<h3 class="welcome">Ahoy, matey! If ye want a drink, click below and tell me what ye like!</h3>
+	</header>
+	<main>
+		<form name="ask-question-form" class="ask-question hidden">
+			<div class="input-label">
+				<input name="answer" class="answer" type="radio" id="yes" value="yes">
+				<label class="answer-label" for="yes">Aye</label>
+			</div>
+			<div class="input-label">
+				<input name="answer" class="answer" type="radio" id="no" value="no">
+				<label class="answer-label" for="no">Nay</label>
+			</div>	
+			<button type="submit" class="next-question">Next</button>
+		</form>
+		<button class="start">Start</button>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>
